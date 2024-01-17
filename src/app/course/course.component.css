@@ -1,0 +1,13 @@
+a{
+    color: rgb(245, 14, 14);
+margin-left: 20px;
+text-decoration: none;
+cursor: pointer;
+font-weight: bold;
+}
+.course-card{
+    width: 40%;
+}
+.course-card a:hover{
+    background-color: rgb(255, 206, 222);
+}

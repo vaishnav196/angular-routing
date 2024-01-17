@@ -1,0 +1,59 @@
+<!-- <p>header works!</p> -->
+<span>
+  <mat-toolbar color="primary" class="nav-bar">
+    <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button> -->
+    <!-- <span>LOGO </span> -->
+    <span class="example-spacer"></span>
+    <div class="nav-links">
+      <a  routerLink="Home" [routerLinkActive]="'active'" fragment="service1" [routerLinkActiveOptions]="{exact:true}" class="nav-link" aria-label="Example icon-button with heart icon">
+          <span>Servie1</span>
+        </a>
+        <a  routerLink="Home" [routerLinkActive]="'active'"fragment="service2" [routerLinkActiveOptions]="{exact:true}" class="nav-link" aria-label="Example icon-button with heart icon">
+          <span>Service2</span>
+        </a>
+        <a routerLink="Home" [routerLinkActive]="'active'" fragment="service3" [routerLinkActiveOptions]="{exact:true}" class="nav-link"aria-label="Example icon-button with heart icon">
+          <span>Service 3</span>
+        </a>
+        <a  routerLink="Home" [routerLinkActive]="'active'"fragment="sub" [routerLinkActiveOptions]="{exact:true}" class="nav-link" aria-label="Example icon-button with heart icon">
+          <span>Sub</span>
+        </a>
+    </div>
+    
+    
+    
+   
+  </mat-toolbar>
+</span>
+<p>
+    <mat-toolbar color="primary" class="nav-bar">
+      <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button> -->
+      <span>LOGO </span>
+      <span class="example-spacer"></span>
+      <div class="nav-links">
+        <a  routerLink="Home" [routerLinkActive]="'active'" class="nav-link" [routerLinkActiveOptions]="{exact:true}" aria-label="Example icon-button with heart icon">
+            <span>Home</span>
+          </a>
+          <a  routerLink="About" [routerLinkActive]="'active'" class="nav-link"[routerLinkActiveOptions]="{exact:true}" aria-label="Example icon-button with heart icon">
+            <span>About</span>
+          </a>
+          <a routerLink="Contact" [routerLinkActive]="'active'"  class="nav-link" [routerLinkActiveOptions]="{exact:true}" aria-label="Example icon-button with heart icon">
+            <span>Contact</span>
+          </a>
+          <a  routerLink="Course" [routerLinkActive]="'active'" class="nav-link"[routerLinkActiveOptions]="{exact:true}" aria-label="Example icon-button with heart icon">
+            <span>Courses</span>
+          </a>
+      </div>
+      <div class="login-logout">
+        <a mat-button class="" [routerLink]="'/Login'"  aria-label="Example icon-button with heart icon" >
+            Login
+          </a>
+          <a mat-button class="" [routerLink]="'/Login'" [queryParams]="{logout:true}" aria-label="Example icon-button with heart icon">
+            Logout
+          </a>
+      </div>
+    </mat-toolbar>
+  </p>

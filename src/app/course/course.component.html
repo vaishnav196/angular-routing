@@ -1,0 +1,26 @@
+
+    <h1>Courses Component Code</h1>
+  
+        <a [routerLink]="['/Course',1]">Course 1</a>
+        <a [routerLink]="['/Course',2]">Course 2</a>
+        <a [routerLink]="['/Course',3]">Course 3</a>
+        <a [routerLink]="['/Course',4]">Course 4</a>
+        <a [routerLink]="['/Course',5]">Course 5</a>
+       
+    
+
+        <div class="course-card">
+            <mat-card>
+                <mat-card-header>
+                  <mat-card-title>Course 1</mat-card-title>
+                  <mat-card-subtitle>JavaScript</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-actions>
+                  <button mat-raised-button [routerLink]="'checkout'">checkout</button>
+                  <button mat-raised-button>Add to cart</button>
+                </mat-card-actions>
+              </mat-card>    
+        </div>
+
+
+       

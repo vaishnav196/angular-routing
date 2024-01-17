@@ -1,0 +1,29 @@
+<form  >
+    <div class="form container">
+        <h1>Contact Component Form</h1>
+        <p>
+            <mat-form-field>
+                <mat-label>FirstName</mat-label>
+                <input matInput [(ngModel)]="firstname" name="firstname">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field>
+                <mat-label>Middle Name</mat-label>
+                <input matInput [(ngModel)]="middlename" name="middlename">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field>
+                <mat-label>Last Name</mat-label>
+                <input matInput [(ngModel)]="lastname" name="lastname">
+            </mat-form-field>
+        </p>
+
+       
+            <button mat-raised-button color="primary"  value="submit" type="submit" (click)="onsubmit()">
+                Login
+            </button>
+       
+    </div>
+</form>
